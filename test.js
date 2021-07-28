@@ -54,7 +54,7 @@ function generateUrlAndCookie(cookieName, cookieActiveDays, gp)
         cookieSessionValue = getCookie(cookieName);
     }
 
-    document.getElementById("proIframe").src = 'https://expert.eva-finance.de/b2c.php?sid='+ cookieSessionValue +'&gp='+ gp;
+    document.getElementById("proIframe").src = 'http://baufiline.local//b2c.php?sid='+ cookieSessionValue +'&gp='+ gp;
     // change gp and url accordingly
 }
 function receiveMessage(event)
